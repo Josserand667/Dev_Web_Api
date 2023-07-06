@@ -3,7 +3,7 @@
 
  const majvoy = (string) => {
 
-    return string.replace(/[aàeéèiouy]/gi, ) // regex, permet de selectionner des élements selon un patern
+    return string.replace(/[aàeéèiouy]/gi,) // regex, permet de selectionner des élements selon un patern
 }
 let monstring = 'Voici une chaine de caractère'
 console.log(majvoy(monstring))

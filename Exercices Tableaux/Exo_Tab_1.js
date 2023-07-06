@@ -5,3 +5,7 @@ var montab = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 for (let i = 0; i < montab.length; i++){
     console.log(montab[i])
 }
+
+// deuxième option
+
+montab.forEach( (nombre) => console.log(nombre))
